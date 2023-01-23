@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/RA_Wk5/images/Homepage\ Background.png), #6ec0af;
+position: relative;
+width: 1440px;
+height: 1024px;
+}
+
+.welcome img{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    margin-left: 84px;
+    margin-top: 84px;
+    border: 4px solid rgba(70,218,191,0.5);
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.welcome_home_box{
+    width: 1200px;
+    height: 800px;
+    margin-left: 120px;
+    margin-top: 111px;
+    margin-bottom: 1969px;
+    margin-right: 120px;
+    background: rgba(224,224,224,0.75);
+    border-radius: 60px;
+}
+
+.welcome_home_box img{
+    width: 600px;
+border: 4px solid rgba(70,218,191,0.75);
+filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+border-radius: 30px;
+margin: 56px 300px 344px 300px;
+}
+
+.welcome span{
+
+    font-family: Arial, Rounded MT, Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #4e4d4d;
+    margin: 607px 452px 2157px 452px;
+}
+
+.welcome p{
+
+}
+
+.location_home_box{
+    width: 1200px;
+    height: 800px;
+    margin-left: 120px;
+    margin-top: 1023px;
+    margin-bottom: 1057px;
+    margin-right: 120px;
+    background: rgba(224,224,224,0.75);
+    border-radius: 60px;
+}
+
+.events_home_box{
+    width: 1200px;
+    height: 800px;
+    margin-left: 120px;
+    margin-top: 1935px;
+    margin-bottom: 145px;
+    margin-right: 120px;
+    background: rgba(224,224,224,0.75);
+    border-radius: 60px;
+}
