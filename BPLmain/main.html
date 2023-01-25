@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Beatrice Public Library</title>
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="/normalize.css">
+	<link rel="stylesheet" href="/reset.css">
 </head>
 <body>
 	<div class="container">
@@ -13,34 +15,36 @@
 		<div class="nav-bar">
 			<nav class="nav-links">
 			<a href="">Welcome</a>
-			<a href="">About</a>
-			<a href="">Library Catalog</a>
-			<a href="">Events</a>
-			<a href="">Donate</a>
+			<a href="/BPLabout/about.html">About</a>
+			<a id="catalog" href="/BPLCatalog/catalog.html">Library Catalog</a>
+			<a href="#events">Events</a>
+			<a href="#donate">Donate</a>
 			<a href="">My Account</a>
 			<a href="">Sign In</a>
 		</nav>
 		</div>
 		<!-- Welcome Section -->
 		<section class="welcome">
-			<img src="/RA_Wk5/images/BPL_logo.png" alt="Beatrice Public Library Logo">
+			<img src="/images/BPL_logo.png" alt="Beatrice Public Library Logo">
 			<div class="welcome_home_box">
 			<img src="/images/Homepage Photo.jpg" alt="Books on a bookshelf"><br/>
 			<div class="home_name">
 			<span>Welcome to the</span>
 			<p id="BPL">Beatrice Public Library</p>
-			<span>where we encourage and assist in life-long learning</span></div><br/>
-			<button class="search">Search Catalog</button>
+			<span>where we encourage and assist in life-long learning</span>
 		</div>
+			<button class="search">Search Catalog</button>
+			</div>
+			
 		</section>
 		<!-- Location & Hours of Operation -->
 		<section class="location">
 <div class="location_home_box">
-
+	<button class="donate" id="donate">Donate Here</button>
 </div>
 		</section>
 		<!-- Event Calendar -->
-		<section class="event_calendar">
+		<section class="event_calendar" id="events">
 <div class="events_home_box">
 
 </div>
