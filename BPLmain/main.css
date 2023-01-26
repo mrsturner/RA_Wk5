@@ -1,12 +1,17 @@
 *{
-box-sizing: border-box;
+box-sizing: border-box; 
 }
 
 .container{
-background:url(/images/Homepage\ Background.png), #6ec0af;
-/* position: relative; */
-width: 1440px;
-height: 1024px;
+    background:
+    linear-gradient(
+        rgba(70,218,191,0.7),
+        rgba(70,218,191,0.7)
+    ),
+    url(/images/Homepage\ Background.png);
+    /* position: relative; */
+    width: 1440px;
+    height: 1024px;
 }
 
 .nav-links{
