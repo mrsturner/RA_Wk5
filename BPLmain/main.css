@@ -37,8 +37,6 @@ body{
     left: 89px;
     top: 30px;
     opacity: 0.9;
-    padding-top: 16.49px;
-    padding-bottom: 16049px;
 }
 
 .welcome img{
@@ -117,14 +115,127 @@ margin: 60px 452px 57px 452px;
 /* Homepage location and hours section */
 
 .location_home_box{
+position: absolute;
 width: 1200px;
 height: 800px;
-margin-left: 120px;
-margin-top: 1023px;
-margin-bottom: 1057px;
-margin-right: 120px;
+top: 1023px;
+left: 120px;
 background: rgba(224,224,224,0.75);
 border-radius: 60px;
+}
+
+#location{
+    position: absolute;
+    top: 56px;
+    bottom: 707px;
+    left: 468px;
+    right: 469px;
+    width: 263px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-decoration: underline;
+    color: #4e4d4d;
+}
+
+.location_hours{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 243px;
+    position: absolute;
+    width: 955px;
+    height: 220px;
+    left: 234px;
+    top: 16px;
+    line-height: 32px;
+    margin-top: 85px;
+}
+
+.location_hours address{
+    width: 212px;
+    height: 173px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4e4d4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.location_hours h3{
+    text-decoration: underline
+}
+
+.location_hours ul{
+    width: 500px;
+    height: 220px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4e4d4d;
+}
+
+#donations{
+position: absolute;
+width: 157px;
+height: 37px;
+left: 300px;
+right: 522px;
+bottom: 187px;
+font-weight: 400;
+line-height: 37px;
+font-size: 32px;
+color: #4e4d4d;
+text-decoration: underline;
+}
+
+.donations{
+    position: absolute;
+    width: 900px;
+    height: 144px;
+    top: 450px;
+    left: 172px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #4e4d4d;
+}
+
+hr{
+    position: absolute;
+    width: 1000px;
+    height: 0;
+    left: 100px;
+    top: 275px;
+    border: 1px solid #4e4d4d;
+    margin-top: 85px;
+}
+
+.donate{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 22px;
+    gap: 10px;
+    position: absolute;
+    width: 178px;
+    height: 52px;
+    left: 331px;
+    top: 184px;
+    background-color: rgba(70, 218, 191, 0.5);
+    border: 1px solid #4e4d4d;
+    border-radius: 8px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4e4d4d;
 }
 
 /* Homepage Events section */
@@ -132,8 +243,8 @@ border-radius: 60px;
 width: 1200px;
 height: 800px;
 margin-left: 120px;
-margin-top: 1935px;
-margin-bottom: 145px;
+top: 1935px;
+margin-bottom: 110px;
 margin-right: 120px;
 background: rgba(224,224,224,0.75);
 border-radius: 60px;
@@ -141,4 +252,9 @@ border-radius: 60px;
 
 .events_for_all{
 padding-bottom: 75px;
+position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 118px;
+    border: 60px;
 }
