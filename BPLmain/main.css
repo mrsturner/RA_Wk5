@@ -14,7 +14,7 @@ body{
     width: 1440px;
     height: 1024px; 
 }
-.container{
+/* .container{
     background:
     linear-gradient(
         rgba(70,218,191,0.7),
@@ -22,7 +22,7 @@ body{
     ),
     url(/images/Homepage\ Background.png);
     
-}
+} */
 
 .nav-links{
     display: flex;
@@ -239,10 +239,11 @@ hr{
 }
 
 /* Homepage Events section */
-.events_home_box{
+.event_calendar{
+position:absolute;
 width: 1200px;
 height: 800px;
-margin-left: 120px;
+left: 118px;
 top: 1935px;
 margin-bottom: 110px;
 margin-right: 120px;
@@ -250,11 +251,21 @@ background: rgba(224,224,224,0.75);
 border-radius: 60px;
 }
 
-.events_for_all{
-padding-bottom: 75px;
-position: absolute;
+.events_home_box{
     width: 1200px;
     height: 800px;
-    left: 118px;
-    border: 60px;
+    margin-left: 120px;
+    top: 111px;
+    margin-bottom: 1969px;
+    margin-right: 120px;
+    background: #ffffff;
+    border-radius: 60px;
+}
+
+.events_for_all{
+position: absolute;
+width: 1080px;
+height: 592px;
+left: 120;
+top: 116px;
 }
