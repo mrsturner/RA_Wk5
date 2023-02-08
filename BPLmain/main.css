@@ -1,5 +1,6 @@
 *{
 box-sizing: border-box; 
+
 }
 
 body{
@@ -9,9 +10,9 @@ body{
         rgba(70,218,191,0.7)
     ),
     url(/images/Homepage\ Background.png);
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    position: relative; 
-    width: 1440px;
+          width: 1440px;
     height: 1024px; 
 }
 /* .container{
@@ -21,7 +22,10 @@ body{
         rgba(70,218,191,0.7)
     ),
     url(/images/Homepage\ Background.png);
-    
+    background-repeat: no-repeat;
+    position:relative; 
+    width: 1440px;
+    height: 1024px; 
 } */
 
 .nav-links{
@@ -37,6 +41,7 @@ body{
     left: 89px;
     top: 30px;
     opacity: 0.9;
+    color: #4e4d4d;
 }
 
 .welcome img{
@@ -254,7 +259,7 @@ border-radius: 60px;
 .events_home_box{
     width: 1200px;
     height: 800px;
-    margin-left: 120px;
+    left: 120px;
     top: 111px;
     margin-bottom: 1969px;
     margin-right: 120px;
@@ -262,10 +267,63 @@ border-radius: 60px;
     border-radius: 60px;
 }
 
+.events_home_box h2{
+    position: absolute;
+    top: 56px;
+    bottom: 707px;
+    left: 468px;
+    right: 469px;
+    width: 263px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-decoration: underline;
+    color: #4e4d4d;
+}
+
+.event_view_registration{
+    position: absolute;
+    top: 88px;
+    bottom: 680px;
+    left: 451px;
+    right: 469px;
+    width: 263px;
+    height: 37px;
+       font-size: 20px;
+    line-height: 37px;
+    text-decoration: none;
+    color: #4e4d4d;
+}
+
+.child_teen_events, .adult_events{
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    padding: 3px 17px;
+    gap: 10px;
+    width: 200px;
+    height: 37px;
+    margin-left: 220px;
+    margin-top: 709px;
+    border: 1px solid #4e4d4d;
+    border-radius: 8px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4e4d4d;
+}
+
 .events_for_all{
 position: absolute;
 width: 1080px;
 height: 592px;
 left: 120;
+right: 120;
 top: 116px;
+}
+
+footer{
+    
 }
