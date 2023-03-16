@@ -58,4 +58,97 @@
         border-radius: 5px;
         padding: 7px 37px; 
     }
+
+    .signin_home_box{
+        position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 120px;
+    top: 112px;
+    background: rgba(224,224,224,0.75);
+    border-radius: 60px;
+    }
+
+    .signin img{
+        position: absolute;
+        width: 175px;
+        height: 175px;
+        left: 84px;
+        top:84px;
+        padding-top: 4px;
+        margin-bottom:2621px; 
+        border-radius: 15px;
+        filter: drop-shadow(0px 4px 4px rgba(0,0,0,1));
+        }
+
+
+        h1{
+            position: absolute;
+            width: 476px;
+            height: 24px;
+            left: 482px;
+            top: 158px;
+            font-size: 36px;
+            font-weight: 400;
+            font-family: Arial, Rounded MT, Bold;
+            font-style: normal;
+            line-height: 24px;
+            }
+
+      form {
+        width: 60vw;
+        max-width: 500px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 2em;
+      }
+      
+      fieldset {
+        border: none;
+        padding: 2rem 0;
+        border-bottom: 3px solid #3b3b4f;
+      }
+      
+      fieldset:last-of-type {
+        border-bottom: none;
+      }
+      
+      label {
+        display: block;
+        margin: 0.5rem 0;
+      }
+
+
+
+
+
+
+
+
+
+    footer{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
+    footer a{
+     width: 113px; 
+     height: 28px;
+     font-family: 'Arial Rounded MT Bold';
+     font-size: 24px;
+     line-height: 28px;
+     color: #4e4d4d;
+    }
+    
+    footer img{
+        width: 49.69px;
+        height: 34px;
+        padding-right: 8px;
+    }
+    
+    .footer_img{
+        margin-top: 12px;
+        padding-top: 12px;
+    }

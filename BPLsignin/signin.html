@@ -24,18 +24,33 @@
 		</nav>
 		</div>
 		<!-- Sign In Form -->
-		<div>
-		<section>
+		<div class="signin">
+		<section class="">
 			<img src="/images/BPL_logo.png" alt="Beatrice Public Library Logo">
-			<div>
-			<img src=""><br/>
-			<div>
-			
-		</div>
-			<button class="search">Search Catalog</button>
+			<div class="signin_home_box">
+				<h1>Welcome Back to BPL</h1>
+				<form method="post" action="">
+					<fieldset>
+						<label for="email">Email Address: <input id="email" name="email" type="email" required /></label>
+						<label for="password">Password: <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+					  <label for="signin"> <input id="signin" name="signin" placeholder="Sign In"/></label>
+					  <label for="authorizations">Sign In With: <input id="authorizations" name="authorizations"  required /></label>
+					</fieldset>
+				</form>
+			<br/>
+			<span>Not yet a member?<a href="">Sign Up Here</a></span>
 			</div>
-			
 		</section>
 	</div>
+	<footer>
+		<a href="">Follow Us</a>
+		<div class="footer_img">
+		<img src="/images/fb_icon.png" alt="facebook icons"/>
+		<img src="/images/IG_icon.png" alt="instagram icons"/>
+		<img src="/images/Tw_icon.png" alt="twitter icons"/>
+		<img src="/images/tb_icon.png" alt="tumblr badge icons"/>
+		<img src="/images/YT_icon.png" alt="youtube icons"/>
+	</div>
+	</footer>
 </body>
 </html>
