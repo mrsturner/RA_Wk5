@@ -12,21 +12,12 @@ body{
     url(/images/Homepage\ Background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 1024px; 
+    font-size: 1.6rem;
 }
-/* .container{
-    background:
-    linear-gradient(
-        rgba(70,218,191,0.7),
-        rgba(70,218,191,0.7)
-    ),
-    url(/images/Homepage\ Background.png);
-    background-repeat: no-repeat;
-    position:relative; 
-    width: 1440px;
-    height: 1024px; 
-} */
+.container{
+    margin: 0 auto;
+    width:100%;
+}
 
 .nav-links{
     display: flex;
@@ -45,7 +36,7 @@ body{
 }
 
 .nav-links a{
-    font-size: 16px;
+    font-size: 1.25em;
     line-height: 19px;
     font-family: Arial, Helvetica, sans-serif;
     color: #2a2626;
@@ -114,14 +105,14 @@ color: #4e4d4d;
 
 .welcome span{
 font-style: normal;
-font-size: 20px;
+font-size: 1.25em;
 line-height: 23px;
 text-align: center;
 color: #4e4d4d;
 }
 
 #BPL{
-font-size: 52px;
+font-size: 3.25em;
 font-weight: 400;
 font-family: Arial, Rounded MT, Bold;
 }
@@ -133,7 +124,7 @@ justify-content: center;
 align-items: center;
 font-family: Arial, Rounded MT, Bold;
 font-weight: 400;
-font-size: 24px;
+font-size: 1.5000em;
 padding: 24px;
 gap: 10px;
 width: 272px;
@@ -157,15 +148,10 @@ border-radius: 60px;
 }
 
 #location{
-    position: absolute;
-    top: 56px;
-    bottom: 707px;
-    left: 468px;
-    right: 469px;
-    width: 263px;
-    height: 37px;
+    width: 22%;
+    margin: 19px 0 0 487px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 37px;
     text-decoration: underline;
     color: #4e4d4d;
@@ -175,23 +161,19 @@ border-radius: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0 2em;
     gap: 243px;
-    position: absolute;
-    width: 955px;
-    height: 220px;
-    left: 234px;
-    top: 16px;
-    line-height: 32px;
-    margin-top: 85px;
+    width: 70%;
+    line-height: 2em;
+    margin: 30px auto;
 }
 
 .location_hours address{
-    width: 212px;
-    height: 173px;
+    width: 32%;
+    padding: 0 0 0 2em;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5000em;
     color: #4e4d4d;
     flex: none;
     order: 0;
@@ -199,49 +181,56 @@ border-radius: 60px;
 }
 
 .location_hours h3{
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .location_hours ul{
-    width: 500px;
-    height: 220px;
+    width: 75%;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5000em;
     line-height: 32px;
     color: #4e4d4d;
 }
 
 #donations{
-position: absolute;
-width: 157px;
-height: 37px;
+width: 100%;
 left: 300px;
 right: 522px;
 bottom: 187px;
+padding: 0 0 1.2500em 0;
 font-weight: 400;
 line-height: 37px;
-font-size: 32px;
+font-size: 2em;
 color: #4e4d4d;
 text-decoration: underline;
 }
 
 .donations{
-    position: absolute;
-    width: 900px;
-    height: 144px;
+   width: 53%;
+   padding: 1em 0 0 0;
     top: 450px;
     left: 172px;
+    margin: 0 auto;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.2500em;
     line-height: 30px;
     text-align: center;
     color: #4e4d4d;
 }
 
+.donation_giver_info{
+    margin: 0 auto;
+    font-size:1em;
+    line-height: 30px;
+    text-align: center;
+    color: #4e4d4d;
+    padding-bottom: 2.75em;
+}
+
 hr{
     position: absolute;
-    width: 1000px;
+    width: 78%;
     height: 0;
     left: 100px;
     top: 275px;
@@ -253,17 +242,18 @@ hr{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 12px 22px;
+    padding: .25em .5em;
     gap: 10px;
-    position: absolute;
-    width: 178px;
-    height: 52px;
+    /* position: absolute; */
+    width: 29%;
+    margin: 0 auto;
+    /* height: 52px; */
     left: 331px;
     top: 184px;
     background-color: rgba(70, 218, 191, 0.5);
     border: 1px solid #4e4d4d;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5000em;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -272,13 +262,13 @@ hr{
 
 /* Homepage Events section */
 .event_calendar{
-position:absolute;
-width: 1200px;
-height: 800px;
-left: 118px;
+/* position:absolute; */
+width: 100%;
+/* height: 800px; */
+/* left: 118px; */
 top: 1935px;
-margin-bottom: 110px;
-margin-right: 120px;
+/* margin-bottom: 110px;
+margin-right: 120px; */
 background: rgba(224,224,224,0.75);
 border-radius: 60px;
 }
@@ -295,29 +285,30 @@ border-radius: 60px;
 }
 
 .events_home_box h2{
-    position: absolute;
-    top: 56px;
+    /* position: absolute; */
+    /* top: 56px;
     bottom: 707px;
     left: 468px;
-    right: 469px;
-    width: 263px;
-    height: 37px;
+    right: 469px; */
+    width: 22%;
+    margin: 19px 0 0 487px;
+    /* height: 37px; */
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 37px;
     text-decoration: underline;
     color: #4e4d4d;
 }
 
 .event_view_registration{
-    position: absolute;
-    top: 88px;
+    /* position: absolute; */
+    /* top: 88px;
     bottom: 680px;
     left: 451px;
-    right: 469px;
-    width: 263px;
-    height: 37px;
-       font-size: 20px;
+    right: 469px; */
+    width: 63%;
+    /* height: 37px; */
+    font-size: 1.2500em;
     line-height: 37px;
     text-decoration: none;
     color: #4e4d4d;
@@ -325,17 +316,17 @@ border-radius: 60px;
 
 .child_teen_events, .adult_events{
     display: inline-block;
-    margin: 0 20px;
+    margin: 27px 16px 0 230px;
     text-align: center;
-    padding: 3px 17px;
+    padding: .25em .25em;
     gap: 10px;
-    width: 200px;
-    height: 37px;
-    margin-left: 220px;
-    margin-top: 709px;
+    width: 17%;
+    /* height: 37px; */
+    /* margin-left: 220px; */
+    /* margin-top: 709px; */
     border: 1px solid #4e4d4d;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 1.1250em;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -344,26 +335,22 @@ border-radius: 60px;
 }
 
 .events_for_all{
-position: absolute;
-width: 1080px;
-height: 592px;
-left: 120;
-right: 120;
-top: 116px;
+/* position: absolute; */
+width:68%;
+margin: 112px 0px 0 0px;
 }
 
 footer{
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: 0;
 }
 
 footer a{
  width: 113px; 
  height: 28px;
  font-family: 'Arial Rounded MT Bold';
- font-size: 24px;
+ font-size: 1.5000em;
  line-height: 28px;
  color: #4e4d4d;
 }

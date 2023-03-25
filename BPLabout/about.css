@@ -3,8 +3,6 @@
 }
 
 body{
-    width: 1440px;
-    height: 1048px;
     background:
     linear-gradient(
         rgba(70,218,191,0.7),
@@ -13,13 +11,11 @@ body{
     url(/images/Homepage\ Background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 1024px; 
 }
 .container{
-    position: relative;
-    width: 1440px;
-    height: 1048px;
+    margin: 0 auto;
+    width: 100%;
+    height: 1024px;
 }
 
 .nav-links{
@@ -67,7 +63,7 @@ body{
 }
     
 .about_home_box{
-        position: absolute;
+    position: absolute;
     width: 1200px;
     height: 800px;
     left: 120px;
@@ -101,26 +97,26 @@ body{
         line-height: 24px;
         }
 
-        .search{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, Rounded MT, Bold;
-            font-weight: 400;
-            font-size: 24px;
-            padding: 24px 20px;
-            gap: 10px;
-            position: absolute;
-            width: 272px;
-            height: 76px;
-            top: 524px;
-            /* left: 588px; */
-            background:rgba(70,218,191,0.75);
-            border: 1px solid #4e4d4d;
-            border-radius: 8px;  
-            margin: 60px 452px 57px 452px;
-            }
+.search{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ font-family: Arial, Rounded MT, Bold;
+ font-weight: 400;
+ font-size: 24px;
+ padding: 24px 20px;
+ gap: 10px;
+ position: absolute;
+ width: 272px;
+ height: 76px;
+ top: 524px;
+ /* left: 588px; */
+ background:rgba(70,218,191,0.75);
+ border: 1px solid #4e4d4d;
+ border-radius: 8px;  
+ margin: 60px 452px 57px 452px;
+  }
 #BPL{
     position: absolute;
     width: 476px;
@@ -151,20 +147,20 @@ body{
     color: #000000;
     } 
 
-   .about_info h4{
+.about_info h4{
     font-family: 'Arial Rounded MT Bold';
     text-decoration: underline;
     font-weight: 400;
     font-size: 24px;
     line-height: 27.77px;
-   } 
+} 
 
-   .about_info p{
+.about_info p{
     font-family: 'Arial Rounded MT Bold';
-       font-weight: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 18.52px;
-   }
+}
 
 footer{
     display: block;
