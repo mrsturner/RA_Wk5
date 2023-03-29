@@ -13,6 +13,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-size: 1.6rem;
+    margin: 0;
 }
 .container{
     margin: 0 auto;
@@ -364,4 +365,14 @@ footer img{
 .footer_img{
     margin-top: 12px;
     padding-top: 12px;
+}
+
+@container (min-width 414) {
+    .body{
+        width: 100%;
+    }
+    .container{
+        width: 50%
+    }
+    
 }
